@@ -57,7 +57,7 @@
                     <td><a href="\delete?name={{ $user->name }}"><i class="fa fa-trash" style="font-size: 25px"></i></a></td>
                 </tr>
                 @endforeach
-                <button class=btn><a href="\insert" style="text-decoration: none; color: white">Add records</a></button>
+                <a href="\insert" style="text-decoration: none; color: white"><button class=btn>Add records</button></a>
             </tbody>
         </table>
     </div>
